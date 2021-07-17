@@ -192,7 +192,7 @@ runcmd:
 - mkdir /srv/encoded
 - chown encoded:encoded /srv/encoded
 - cd /srv/encoded
-- sudo -u encoded git clone --no-checkout https://github.com/T2DREAM/t2dream-portal.git .
+- sudo -u encoded git clone --no-checkout https://github.com/Lung-Genome-Browser/t2dream-portal.git .
 - sudo -u encoded git checkout %(COMMIT)s
 - sudo add-apt-repository -y ppa:fkrull/deadsnakes-python2.7
 - sudo apt-get update
