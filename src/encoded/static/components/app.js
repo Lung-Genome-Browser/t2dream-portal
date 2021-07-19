@@ -71,6 +71,7 @@ const projectList = [
     'modENCODE',
     'modERN',
     'GGR',
+    'LungMap',
     'AMP',
 ];
 const biosampleTypeList = [

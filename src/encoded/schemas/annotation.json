@@ -4,7 +4,7 @@
     "id": "/profiles/annotation.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
-    "required": [ "award", "lab", "portal_usage", "annotation_source", "annotation_type", "portal_tissue", "annotation_category", "tissue_term_id"],
+    "required": [ "award", "lab"],
     "identifyingProperties": ["uuid", "accession" , "aliases"],
     "additionalProperties": false,
     "mixinProperties": [
